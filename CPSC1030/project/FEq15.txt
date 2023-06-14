@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Qusetion 15</title>
+ <meta charset="utf-8">
+</head>
+<body>
+  <form method="get/post" action="http://webdevbasics.net/scripts/demo.php">
+  First Name: <input type="text" name="fname" id="fname"><br><br>
+  Last Name: <input type="text" name="lname" id="lname"><br><br>
+  E-mail:<input type= "text" name="email" id="email"><br><br>
+  School url:<input type="text" name="url" id="url"><br><br>
+  Student Program:
+  <input type="radio" name="program" value="certificate">Certificate<br>
+  <input type="radio" name="program" value="diploma" checked>Diploma<br>
+   <input type="radio" name="program" value="degree">Degree<br>
+  <input type ="submit" value="submit" onclick="alert('Thank You')>&nbsp;
+  <input type="reset">
+  </form>
+</body>
+</html>

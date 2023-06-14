@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4_1</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #griddiv {
+            display: grid;
+            margin: auto;
+            width: 50%;
+            height: 500px;
+            grid-template-columns: auto auto;
+        }
+
+        div div {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lab4_1</h1>
+    <p>You will use event handling to make the following grid interactive.</p>
+    <div id="griddiv">
+        <div id="div1" onmouseover="backgroundcolorgreen1()" onclick="bgcolorblue1()"></div>
+        <div id="div2" onmouseover="backgroundcolorgreen2()" onclick="bgcolorblue2()"></div>
+        <div id="div3" onmouseover="backgroundcolorgreen3()" onclick="bgcolorblue3()"></div>
+        <div id="div4" onmouseover="backgroundcolorgreen4()" onclick="bgcolorblue4()"></div>
+    </div>
+</body>
+<script>
+  let b1 = document.getElementById('div1'); 
+  function backgroundcolorgreen1(){b1.style.backgroundColor="green";}
+  let b2 = document.getElementById('div2');
+  function backgroundcolorgreen2(){b2.style.backgroundColor="green";}
+  let b3 = document.getElementById('div3');
+  function backgroundcolorgreen3(){b3.style.backgroundColor="green";}
+  let b4 = document.getElementById('div4');//Add the event related attibute to the divisions
+  function backgroundcolorgreen4(){b4.style.backgroundColor="green";}
+  let c1 = document.getElementById('div1'); 
+  function bgcolorblue1(){c1.style.backgroundColor="blue";} 
+  let c2 = document.getElementById('div2');
+  function bgcolorblue2(){c2.style.backgroundColor="blue";} 
+  let c3 = document.getElementById('div3');
+  function bgcolorblue3(){c3.style.backgroundColor="blue";} 
+  let c4 = document.getElementById('div4');
+  function bgcolorblue4(){c4.style.backgroundColor="blue";} //Make functions, each function is to respond to a specific event from a certain element.
+</script>
+</html>

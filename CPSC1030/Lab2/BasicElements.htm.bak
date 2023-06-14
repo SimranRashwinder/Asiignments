@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+ 
+ <html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>Basic Elements</title>
+   </head>
+   <body>
+  
+     <!-- This is the page header -->
+   <h1> Basic Elements</h1><br> 
+  
+    <!-- This is the navigation section -->
+     <!-- Replace "your_novell_username" with the appropriate value -->
+     <a href="http://mylinux.langara.bc.ca/~s249/">Home</a>
+
+
+    <!-- This is the main part of the page -->
+  
+    <!-- Section 1 -->
+    <h2>German</h2><br>
+  
+ 
+    Im Laufe seines Lebens war Einstein Staatsb&#252;rger mehrerer Lnder: Durch Geburt besa er die wrttembergische Staatsb&#252;rgerschaft.<blockquote>
+  
+    Von 1896 bis 1901 staatenlos, danach Staatsb&#252;rger der Schweiz, war er 1911/12 auch B&#252;rger &#214;sterreich-Ungarns. Seit 1914 Mitglied der Akademie der Wissenschaften und B&#252;rger Preu&#946;ens, war er somit erneut Staatsangeh&#246;riger im Deutschen Reich.</blockquote>
+   
+    Mit der Machtergreifung Hitlers gab er<sup>1933</sup> den deutschen Pass endgltig ab. Zum seit 1901 geltenden Schweizer B&#252;rgerrecht kam ab<sub>1940</sub> noch die US-Staatsb&#252;rgerschaft.<br>
+  
+  
+    <!-- Section 2 -->
+    <h2>Pumping Lemma</h2><br>
+	
+	<i>(&#8704; L&#8839; &#8721;<sup>&#8727;</sup>)</i><br>
+	(regular<i>(L)&#8658;<br>
+	((&#8707; p &#8805;1)((&#8704; w&#8712; L)((&#8739;w&#8739; &#8805; p))&#8658;<br>
+	((&#8707; x,y,z &#8712; &#8721;<sup>&#8727;</sup>)(w=xyz&#8743;(&#8739;y&#8739; &#8805;1&#8743;&#8739;xy&#8739; &#8805; p&#8743;&#8739;xy&#8739; &#8804; p $and;(&#8704;i&#8805;0)(xy<sup>i</sup>z&#8712;L)))))))</i><br><br>
+	
+  
+
+    <!-- This is the footer of the page -->
+    <b><i>Created by Simran</i></b> 
+
+
+
+</body></html>

@@ -1,0 +1,10 @@
+MCQ for 25 marks  (25 questions)                              65 marks total
+3 Programming problems
+
+HANDS-ON PART -70 minutes and 35 marks
+2 Programming problems(Notes and Books)
+
+ARRAY QUESTION6 
+val[] = new int [100];
+when input is n=1
+val[n-1]++

@@ -1,0 +1,36 @@
+CREATE TABLE student(
+ sId INT PRIMARY KEY,
+ sName VARCHAR(255)
+ );
+
+CREATE TABLE course (
+ cId INT PRIMARY KEY,
+ cName VARCHAR(255) 
+);
+
+CREATE TABLE std_enrolls_sec(
+ sId INT REFERENCES student NOT NULL,
+ cId INT REFERENCES course NOT NULL,
+ secId INT NOT NULL,
+ grade INT NOT NULL,
+ PRIMARY KEY(sId,cId,secId)
+);
+
+CREATE TABLE course_section(
+ cId INT REFERENCES course(cId) NOT NULL,
+ secId INT ,
+ stype CHAR(3),
+ PRIMARY KEY(cId, secId)
+)
+SELECT student.sName,std_enrolls_sec.secid
+FROM student JOIN std_enrolls_sec
+ON std_enrolls_sec.sid = student.sid;
+SELECT * FROM course_section;
+
+CREATE TABLE std_enrolls_sec(
+ sId INT REFERENCES student NOT NULL,
+ cId INT REFERENCES course NOT NULL,
+ secId INT NOT NULL,
+ grade INT NOT NULL,
+ PRIMARY KEY(sId,cId,secId)
+);

@@ -1,0 +1,15 @@
+
+public class PChallenge_100377444 {
+
+	public static void main(String[] args) {
+		int a ;
+	    int b;
+		for (a=1; a<7; a++) {
+			while(a !=1) {
+			System.out.print(a + " ");}
+		}
+		
+
+	}
+
+}

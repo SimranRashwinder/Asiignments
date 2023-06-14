@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Midterm2 Question</title>
+    <meta charset="utf-8">
+    <style>
+        #wrapper { background-color: yellow;
+            width: 80%;
+            border: solid black;
+        } 
+        nav { float: left;
+            width: 150px;
+            font-weight: bold;
+        } 
+        nav ul { list-style-type: none; 
+        }
+        nav li { padding: 15px;
+        }
+        nav a { text-decoration: none; 
+        }
+        main {margin-left: 155px;
+            padding: 20px; 
+            background-color: #ffffff;
+            border-left: solid black;
+        } 
+        
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="directions.html">Directions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>What is Lorem Ipsum?</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <h2>Why do we use it?</h2>
+            <p>It is a long established fact that a reader will be distracted by the readable 
+                    content of a page when looking at its layout. </p>
+        </main>   
+ 
+    </div>
+</body>
+</html>

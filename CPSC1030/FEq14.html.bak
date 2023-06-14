@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title> Final Exam Layout Question </title>
+    <style>
+         body {text-align: center;}
+
+         #box1 {border: 1px solid black;
+                width: 200px; height: 100px;}
+
+         #box2 {border: 1px solid black;
+                margin-left: 0px; width: 45px; height: 40px;
+                float: left;}
+
+         #box3 {border: 1px solid black;
+                margin-left: 55px; width: 90px; height: 40px;}
+
+         #box4 {border: 1px solid black;
+                width: 45px; height: 40px;}
+     </style>
+</head>
+<body>
+  <!-- Write your code here -->
+  <div id="box1">
+     <p>Box1</p>
+     <div id="box2">
+	   <p>Box2</p>
+	 </div>
+	 <div id="box3">
+	   <p>Box3</p>
+	 </div>
+	<div id="box4">
+	   <p>Box4</p>
+	</div>
+  </div>
+
+ 
+
+      
+</body>
+</html>

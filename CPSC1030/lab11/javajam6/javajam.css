@@ -1,0 +1,128 @@
+*{box-sizing:border-box;}
+#wrapper{min-width:900px;
+         max-width:1280px;
+		 box-shadow:5px 5px black;
+	     background-color:#231814;
+         margin-left:auto;
+         margin-right:auto;
+         width:80%;
+		 padding:0;
+        }	
+
+body{background-image:url(fadedroad50.jpg);
+     background-repeat:no-repeat;
+     background-color:#fcebb6;
+     color:#221811;
+	 font-family:Tahoma, Arial, sans-serif;
+	}
+header{color:#231814;
+       background-color:#d2b48c;
+	   background-image:url(coffeelogo.jpg);
+	   background-repeat:no-repeat;
+	   padding:5px;
+	   padding-left:240px;
+	   }
+h1{font-size:3em;
+  }
+h2{color:#8c3826;
+   padding-left:3em;
+   padding-right:2em;
+   padding-top:0;
+  }
+nav{text-align:center;
+    font-weight:bold;
+	font-size:1.5em;
+	padding:5px;
+	text-decoration:none;
+	float:left;
+	width:200px;
+    }
+nav ul{list-style-type:none;
+       padding:0;
+      }
+nav a{text-decoration:none;}
+main{padding-left:0;
+     padding-bottom:2em;
+	 padding-right:0;
+	 padding-top:0;
+	 background-color:#fef6c2;
+	 display:block;
+	 overflow:auto;
+	 margin-left:200px;
+     }
+footer{background-color:#d2b48c;
+       font-size:.60em;
+	   text-align:center;
+	   font-style:italic;
+	   padding:1em;
+	   border-top:2px solid #8c3826;
+	   }
+h4{background-color:#d2b48c;
+   font-size:1.2em;
+   padding-left:.5em;
+   padding-bottom:0em;
+   padding-left:3em;
+   padding-right:2em;
+   text-transform:uppercase;
+   border-bottom:2px solid black;
+  }
+  
+h3{color:#8c3826;
+   padding-left:3em;
+   padding-right:2em;
+  }
+  
+dt{color:#8c3826;
+   padding-left:3em;
+   padding-right:2em;
+  }	
+  
+.details{padding-left:20%;
+         padding-right:20%;
+		 overflow:auto;
+        }
+		
+img{padding-left:10px;
+    padding-right:10px;
+    }
+	
+#homehero{background-image:url(hero.jpg);
+          background-repeat:no-repeat;
+	      height:300px;
+          background-size:100%;
+          }
+		  
+#heromugs{background-image:url(heromugs.jpg);
+	     background-repeat:no-repeat;
+		 height:300px;
+         background-size:100%;
+          }
+		  
+#heroguitar{background-image:url(heroguitar.jpg);
+	      background-repeat:no-repeat;
+		  height:200px;
+          background-size:100%;
+          }
+		  
+main p, main ul, main h3, main div{padding-left:3em;
+   padding-right:2em;
+  }
+  
+nav a:link{color:#fef6c2;}
+nav a:visited{color:#d2b48c;}
+nav a:hover{color:#cc9933;}
+
+.floatleft{float:left;
+           padding-bottom:2em;
+		   padding-right:2em;
+           }
+		   
+.onethird{float:left;
+          width:33%;
+          }
+		  
+header a{text-decoration:none;}
+header a:link{color:#231814;}
+header a:visited{color:#232814;}
+header a:hover{color:#fef6c2;}
+		   

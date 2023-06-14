@@ -1,0 +1,24 @@
+Whatever is defined in the class body the scope is whole class between the{}but if it is defined in a method then te scope is just that method
+BA b1  = new BA();
+BA b2 = new SA();
+b2.deposit(); //deposit of BA will be called
+
+b2 = new CA();
+b2.deposit(); //depoit of CA will be called
+b2.deductFees(); //this will not be called bcz deduct fees is not in BA so we will have to 
+
+both method and instance variable can be static
+For class A
+private static int s = 0;
+private int n;
+if in main new object A is created there will be a space reserved for n but s will have only 1 value for all the objects of type A
+#don't use static if it is not necessary;
+don't define static var in constructor;
+
+ABSTARCT CLASS_ Rgular class with diff instance var, methods, const, abstract method(can not have method body)
+but it can not be intanciated like we can not say c1 = new Card(); if class Card is abstract
+
+
+if a class inherits abstract class then it will have to override the abstract method(that's forced)
+but the only exception from this is when the child class is also abstract.
+

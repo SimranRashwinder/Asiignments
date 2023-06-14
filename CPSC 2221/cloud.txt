@@ -1,0 +1,3 @@
+username- student-03-9b5af6dc2fde@qwiklabs.net
+password- mDzaKZIHNddn
+gc project id - qwiklabs-gcp-04-52167699acfb

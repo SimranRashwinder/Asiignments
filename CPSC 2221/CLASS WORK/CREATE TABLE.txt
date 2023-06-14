@@ -1,0 +1,31 @@
+CREATE TABLE hotel(
+    hotel_no VARCHAR(255) PRIMARY KEY,
+    hotel_name VARCHAR(255),
+    city VARCHAR(255)
+    );
+ 
+ CREATE TABLE room(
+     room_no INT PRIMARY KEY,
+	 hotel_no VARCHAR(255) REFERENCES hotel,
+	 room_type CHAR(1),
+	 price NUMERIC(5,2)
+	 );
+CREATE TABLE booking( 
+     hotel_no VARCHAR(255)  REFERENCES hotel,
+     guest_no VARCHAR(255)  REFERENCES guest,
+     date_from DATE PRIMARY KEY,
+     date_to DATE,
+     room_no INT REFERENCES room
+     );
+	 
+CREATE TABLE guest(
+     guest_no VARCHAR(255) PRIMARY KEY,
+	 guest_name VARCHAR(255),
+	 city VARCHAR(255)
+	)
+
+
+lab7
+
+
+

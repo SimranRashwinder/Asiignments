@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<title>Bio Lab/CPSC1030 <title>
+</head>
+<body>
+<h3>Bio Lab(Bio Card)</h3>
+<p>1.Attach a recognizable photo of yourself.
+Ans:<img src="../../../../Downloads/1642802798169.jpg"<p>
+<p>2.What computer have you had before?<br>
+Ans: I have not done any computer course before this.</p>
+<p>3.What Web development experience do you have?<br>
+Ans:I do not have any Web development experience.</p>
+<p>4.Why have you registered for this course?<br>
+Ans:This course is the part of my curriculum.</p>
+<p>5.What do you expect from this course?<br>
+Ans: I want to get more knowledge about internet, html, CSS and how to design the websites etc.
+<p>6. Other information you would like to share with your instructor and Lab Assitant.
+Ans: I want to tell my instructor and Lab Assistant that I donot have any background knowledge of html and CSS. So, this course might be more challenging for me than other students. Also I am a international student and I am not familiar with the canadian culture and education system. So, kindly co-operate with me.</p>
+</body>
+</html>

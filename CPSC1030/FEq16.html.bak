@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Question16</title>
+ <meta charset="utf-8">
+ <style>
+ table, th, td{border:1px solid black;}
+ #blue{background-color:blue;}
+ /*I did n't knew the exact color*/
+ </style>
+</head>
+<body>
+ <table>
+   <caption>Populationa of Canadian Cities</caption>
+    <tr>
+     <th rowspan="2">City</th>
+	 <th colspan="2">Information</th>
+	</tr>
+    <tr>
+	  <th id="blue">Population</th>
+	  <th id="blue">Province</th>
+	</tr>
+	<tr>
+	  <td>Calgary</td>
+	  <td>1.336 million</td>
+	  <td>Alberta</td>
+	</tr>
+	<tr>
+	  <td id="blue">Montreal</td>
+	  <td id="blue">1.78 million</td>
+	  <td id="blue">Quebec</td>
+	</tr>
+ </table>
+</body>
+</html>	
+	

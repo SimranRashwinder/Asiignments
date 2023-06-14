@@ -1,0 +1,30 @@
+
+public class PChallenge_100377444 {
+
+	public static void main(String[] args) {
+		int a ;
+	    int b;
+	    for (a=1; a<2; a++) {
+			System.out.print(a + " ");
+		}
+	    for (a=1; a<3; a++) {
+			System.out.print(a + " ");
+		}
+	    for (a=1; a<4; a++) {
+			System.out.print(a + " ");
+		}
+	    for (a=1; a<5; a++) {
+			System.out.print(a + " ");
+		}
+	    for (a=1; a<6; a++) {
+			System.out.print(a + " ");
+		}
+		
+		for (a=1; a<7; a++) {
+			System.out.print(a + " ");
+		}
+		
+
+	}
+
+}

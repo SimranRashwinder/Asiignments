@@ -1,0 +1,25 @@
+student number same as bank account number
+use lastAssignedNumber and increment it to get unique id
+
+2classses
+Student: name(string), address(string),gpa, student number(as in class)
+
+
+gpa = total grades/total credits
+addcourse(toatl grades, total credit)
+total credit should be int//comment
+another  class to test it.
+
+
+limitation of arraylist: no.of element are fixed.
+
+for(int i=0; i<accounts.size; i++){
+ bankaccount = a = accounts.get(i);
+ total += a.getBalance();
+}
+
+
+check for errors cases and handle it 
+
+create tester in which handle errors and 
+	

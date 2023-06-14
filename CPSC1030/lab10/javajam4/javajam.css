@@ -1,0 +1,61 @@
+body{background-image:url(fadedroad50.jpg);
+     background-color:#fcebb6;
+     color:#221811;
+	 font-family:Tahoma, Arial, sans-serif;
+	}
+header{color:#8c3826;
+       background-color:#d2b48c;
+	   text-align:center;
+	   padding:5px;
+	   }
+h1{font-size:3em;
+  }
+h2{color:#8c3826;
+  }
+nav{text-align:center;
+    font-weight:bold;
+	font-size:1.5em;
+	padding:5px;
+	text-decoration:none;
+   }
+main{padding-left:2em;
+     padding-bottom:2em;
+	 padding-right:2em;
+	 display:block;
+     }
+footer{background-color:#d2b48c;
+       font-size:.60em;
+	   text-align:center;
+	   font-style:italic;
+	   padding:1em;
+	   border-top:2px solid #8c3826;
+	   }
+h4{background-color:#d2b48c;
+   font-size:1.2em;
+   padding-left:.5em;
+   padding-bottom:.25em;
+  }
+h3{color:#8c3826;
+   }
+dt{color:#8c3826;
+  }
+#wrapper{min-width:900px;
+         max-width:1280px;
+		 box-shadow:5px 5px 5px #828282;
+	     background-color:#fefaeb;
+         margin-left:auto;
+         margin-right:auto;
+         width:80%;
+        }		
+.details{padding-left:20%;
+         padding-right:20%;
+        }
+img{padding-left:10px;
+    padding-right:10px;
+    }
+#homehero{background-image:url(hero.jpg);
+	      height:300px;
+          background-size:cover;
+          }
+	   
+	

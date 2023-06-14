@@ -1,0 +1,13 @@
+splice[a,b,c]                          # used to copy the array
+a=index no.
+b=no. of items to be removed
+c= item to be added 
+
+
+concat is used to add 2 arrays
+
+
+
+
+   midterm2
+full syllabus done upto now.

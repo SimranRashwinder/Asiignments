@@ -1,0 +1,13 @@
+INDEX VERSION 1.131+C:\Users\ss\Desktop\CPSC1150\.metadata\.plugins\org.eclipse.jdt.core
+1022190445.index
+2445183009.index
+3538092609.index
+2891087612.index
+1865797976.index
+3679800938.index
+916322217.index
+2664712560.index
+2554621117.index
+4198598768.index
+2783195863.index
+2883064424.index

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>question12</title>
+ <meta charset="utf-8">
+</head>
+<body>
+ <ol>
+   <li>Fruits</li>
+     <ul>
+        <li>Red</li>
+           <ol>
+             <li>Strawberry</li>
+             <li>Raspberry</li>
+           </ol>			 
+		<li>Green</li>
+		   <ol>
+		     <li>Cucumber</li>
+			 <li>kiwi</li>
+			</ol>
+	  </ul>
+	<li>Vegetables</li>
+	  <ol>
+	    <li>Artichpoke</li>
+	    <li>Asparagus</li>
+	  </ol>
+ </ol>	
+
+</body>
+</html> 
